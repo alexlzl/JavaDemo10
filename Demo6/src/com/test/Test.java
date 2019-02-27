@@ -1,6 +1,8 @@
 package com.test;
 
 import javax.rmi.ssl.SslRMIClientSocketFactory;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * 泛型定义
@@ -14,5 +16,6 @@ class Test1{
         //泛型声明
       Test<? extends SslRMIClientSocketFactory> test=new Test<>();
       Test<String> test1=new Test<>();
+        List<?extends Object> list=new ArrayList<String>();
     }
 }
