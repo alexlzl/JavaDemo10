@@ -11,7 +11,7 @@ import java.util.List;
 public class Test<t> {
 }
 
-class Test1{
+ class Test1{
     public void test(){
         //泛型声明
       Test<? extends SslRMIClientSocketFactory> test=new Test<>();
